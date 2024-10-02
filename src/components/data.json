@@ -46,6 +46,116 @@
     },
     {
       "id": 5,
+      "question": "What is the primary purpose of the pooling layer in a Convolutional Neural Network (CNN)?",
+      "options": [
+        "To reduce the dimensionality of the feature maps",
+        "To increase the number of feature maps",
+        "To introduce non-linearity into the model",
+        "To normalize the input data"
+      ],
+      "correct_answer": "To reduce the dimensionality of the feature maps"
+    },
+    {
+      "id": 6,
+      "question": "Which of the following deep learning architectures is particularly well-suited for sequential data, such as time series or natural language processing?",
+      "options": [
+        "Convolutional Neural Network (CNN)",
+        "Recurrent Neural Network (RNN)",
+        "Autoencoder",
+        "Generative Adversarial Network (GAN)"
+      ],
+      "correct_answer": "Recurrent Neural Network (RNN)"
+    },
+    {
+      "id": 7,
+      "question": "What is the term for the process of adjusting the model's parameters to minimize the loss function?",
+      "options": [
+        "Backpropagation",
+        "Gradient Descent",
+        "Optimization",
+        "Regularization"
+      ],
+      "correct_answer": "Gradient Descent"
+    },
+    {
+      "id": 8,
+      "question": "Which of the following techniques is used to prevent overfitting in deep neural networks?",
+      "options": [
+        "Data augmentation",
+        "Dropout regularization",
+        "Early stopping",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "id": 9,
+      "question": "What is the purpose of the softmax activation function in the output layer of a classification model?",
+      "options": [
+        "To introduce non-linearity into the model",
+        "To normalize the output probabilities",
+        "To increase the dimensionality of the output",
+        "To decrease the computational cost"
+      ],
+      "correct_answer": "To normalize the output probabilities"
+    },
+    {
+      "id": 10,
+      "question": "Which of the following deep learning frameworks is primarily developed by Google?",
+      "options": [
+        "TensorFlow",
+        "PyTorch",
+        "Keras",
+        "Microsoft Cognitive Toolkit (CNTK)"
+      ],
+      "correct_answer": "TensorFlow"
+    },
+    {
+      "id": 11,
+      "question": "What is the term for the process of training a model on a large dataset to learn general features, and then fine-tuning the model on a smaller dataset for a specific task?",
+      "options": [
+        "Transfer learning",
+        "Multi-task learning",
+        "Meta-learning",
+        "Online learning"
+      ],
+      "correct_answer": "Transfer learning"
+    },
+    {
+      "id": 12,
+      "question": "Which of the following types of neural networks is particularly well-suited for image generation tasks?",
+      "options": [
+        "Generative Adversarial Network (GAN)",
+        "Variational Autoencoder (VAE)",
+        "Convolutional Neural Network (CNN)",
+        "Recurrent Neural Network (RNN)"
+      ],
+      "correct_answer": "Generative Adversarial Network (GAN)"
+    },
+    {
+      "id": 13,
+      "question": "What is the purpose of the batch normalization layer in a deep neural network?",
+      "options": [
+        "To normalize the input data",
+        "To normalize the activations of each layer",
+        "To reduce the dimensionality of the feature maps",
+        "To increase the number of feature maps"
+      ],
+      "correct_answer": "To normalize the activations of each layer"
+    },
+    {
+      "id": 14,
+      "question": "Which of the following metrics is commonly used to evaluate the performance of a classification model?",
+      "options": [
+        "Mean Squared Error (MSE)",
+        "Mean Absolute Error (MAE)",
+        "Accuracy",
+        "F1-score"
+      ],
+      "correct_answer": "Accuracy"
+    },
+    {
+      "id": 15,
       "question": "Which of the following is a type of recurrent neural network (RNN) designed to handle the vanishing gradient problem?",
       "options": [
         "Long Short-Term Memory (LSTM) Network",
@@ -54,6 +164,116 @@
         "Autoencoder"
       ],
       "correct_answer": "Long Short-Term Memory (LSTM) Network"
+    },
+    {
+      "id": 16,
+      "question": "What is the primary advantage of using a Residual Network (ResNet) over a traditional Convolutional Neural Network (CNN)?",
+      "options": [
+        "ResNet is more computationally efficient",
+        "ResNet can handle larger input images",
+        "ResNet is less prone to vanishing gradients",
+        "ResNet has fewer parameters"
+      ],
+      "correct_answer": "ResNet is less prone to vanishing gradients"
+    },
+    {
+      "id": 17,
+      "question": "Which of the following techniques is used to regularize the weights of a neural network?",
+      "options": [
+        "Dropout",
+        "L1 regularization",
+        "L2 regularization",
+        "Early stopping"
+      ],
+      "correct_answer": "L2 regularization"
+    },
+    {
+      "id": 18,
+      "question": "What is the primary function of the rectified linear unit (ReLU) activation function?",
+      "options": [
+        "To introduce non-linearity into the model",
+        "To normalize the output of the model",
+        "To reduce the dimensionality of the input data",
+        "To increase the computational cost of the model"
+      ],
+      "correct_answer": "To introduce non-linearity into the model"
+    },
+    {
+      "id": 19,
+      "question": "Which of the following types of neural networks is particularly well-suited for image segmentation tasks?",
+      "options": [
+        "Convolutional Neural Network (CNN)",
+        "Recurrent Neural Network (RNN)",
+        "U-Net",
+        "Autoencoder"
+      ],
+      "correct_answer": "U-Net"
+    },
+    {
+      "id": 20,
+      "question": "What is the primary advantage of using a Transfer Learning approach in deep learning?",
+      "options": [
+        "It allows for faster training times",
+        "It reduces the need for large amounts of labeled data",
+        "It improves the model's ability to generalize to new tasks",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "id": 21,
+      "question": "Which of the following metrics is commonly used to evaluate the performance of a neural network on a classification task?",
+      "options": [
+        "Mean Squared Error (MSE)",
+        "Mean Absolute Error (MAE)",
+        "Accuracy",
+        "F1-score"
+      ],
+      "correct_answer": "Accuracy"
+    },
+    {
+      "id": 22,
+      "question": "What is the primary function of the batch normalization layer in a neural network?",
+      "options": [
+        "To normalize the input data",
+        "To normalize the output of the model",
+        "To reduce the dimensionality of the feature maps",
+        "To increase the computational cost of the model"
+      ],
+      "correct_answer": "To normalize the input data"
+    },
+    {
+      "id": 23,
+      "question": "Which of the following types of neural networks is particularly well-suited for natural language processing tasks?",
+      "options": [
+        "Convolutional Neural Network (CNN)",
+        "Recurrent Neural Network (RNN)",
+        "Transformers",
+        "Autoencoder"
+      ],
+      "correct_answer": "Transformers"
+    },
+    {
+      "id": 24,
+      "question": "What is the primary advantage of using a Generative Adversarial Network (GAN) over a Variational Autoencoder (VAE)?",
+      "options": [
+        "GANs are more computationally efficient",
+        "GANs can handle larger input images",
+        "GANs can generate more realistic samples",
+        "GANs have fewer parameters"
+      ],
+      "correct_answer": "GANs can generate more realistic samples"
+    },
+    {
+      "id": 25,
+      "question": "Which of the following techniques is used to improve the stability of a neural network during training?",
+      "options": [
+        "Batch normalization",
+        "Dropout regularization",
+        "Weight clipping",
+        "Early stopping"
+      ],
+      "correct_answer": "Batch normalization"
     }
   ]
 }
