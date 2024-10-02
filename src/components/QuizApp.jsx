@@ -3,7 +3,7 @@ import { Container, Card, Button, Alert, ProgressBar } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import quizData from './data.json';
 
-const App = () => {
+const QuizApp = () => {
   const [quizState, setQuizState] = useState({
     currentQuestion: null,
     selectedAnswer: '',
@@ -42,6 +42,17 @@ const App = () => {
         showFeedback: false,
       }));
     }
+  };
+
+  const handleRestartQuiz = () => {
+    const data = quizData.data;
+    setQuizState({
+      currentQuestion: data[0],
+      selectedAnswer: '',
+      score: 0,
+      questionIndex: 0,
+      showFeedback: false,
+    });
   };
 
   const getButtonVariant = (option) => {
@@ -118,10 +129,21 @@ const App = () => {
                   </div>
                 )}
                 {showFeedback && questionIndex === quizData.data.length - 1 && (
-                  <Alert variant="info" className="text-center">
-                    <Alert.Heading>Quiz Complete!</Alert.Heading>
-                    <p className="mb-0">Final Score: {score} out of {quizData.data.length}</p>
-                  </Alert>
+                  <>
+                    <Alert variant="info" className="text-center">
+                      <Alert.Heading>Quiz Complete!</Alert.Heading>
+                      <p className="mb-0">Final Score: {score} out of {quizData.data.length}</p>
+                    </Alert>
+                    <div className="d-grid mt-3">
+                      <Button 
+                        variant="primary" 
+                        size="lg"
+                        onClick={handleRestartQuiz}
+                      >
+                        Restart Quiz
+                      </Button>
+                    </div>
+                  </>
                 )}
                 <div className="text-end mt-3">
                   <strong>Score: {score} / {quizData.data.length}</strong>
