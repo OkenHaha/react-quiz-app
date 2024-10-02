@@ -1,0 +1,59 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "question": "What is the primary purpose of the activation function in a neural network?",
+      "options": [
+        "To introduce non-linearity to the model",
+        "To normalize the input data",
+        "To reduce the dimensionality of the data",
+        "To increase the number of parameters in the model"
+      ],
+      "correct_answer": "To introduce non-linearity to the model"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following deep learning architectures is commonly used for image classification tasks?",
+      "options": [
+        "Recurrent Neural Network (RNN)",
+        "Convolutional Neural Network (CNN)",
+        "Long Short-Term Memory (LSTM) Network",
+        "Autoencoder"
+      ],
+      "correct_answer": "Convolutional Neural Network (CNN)"
+    },
+    {
+      "id": 3,
+      "question": "What is the name of the algorithm used to train neural networks by minimizing the loss function?",
+      "options": [
+        "Stochastic Gradient Descent (SGD)",
+        "Batch Gradient Descent",
+        "Gradient Ascent",
+        "Newton's Method"
+      ],
+      "correct_answer": "Stochastic Gradient Descent (SGD)"
+    },
+    {
+      "id": 4,
+      "question": "What is the term for the phenomenon where a neural network is unable to generalize well to new, unseen data?",
+      "options": [
+        "Overfitting",
+        "Underfitting",
+        "Regularization",
+        "Dropout"
+      ],
+      "correct_answer": "Overfitting"
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is a type of recurrent neural network (RNN) designed to handle the vanishing gradient problem?",
+      "options": [
+        "Long Short-Term Memory (LSTM) Network",
+        "Gated Recurrent Unit (GRU)",
+        "Bidirectional RNN",
+        "Autoencoder"
+      ],
+      "correct_answer": "Long Short-Term Memory (LSTM) Network"
+    }
+  ]
+}
